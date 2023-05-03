@@ -1,7 +1,4 @@
 import { candypay } from "@/app/utils";
-import { ServerRuntime } from "next";
-
-export const runtime: ServerRuntime = "edge";
 
 export async function POST(request: Request) {
   try {
